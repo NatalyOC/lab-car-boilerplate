@@ -1,6 +1,9 @@
 /* Los estilos de tu proyecto */
 /*Estilos para secciones desarrolladas por Nataly */
-
+.header-style{
+    background-color: #fff;
+    height: 50px;
+}
 .container-super-fluid{
     width: 100%;
     padding: 0;
@@ -8,4 +11,19 @@
 .col-super-lg-12{
     width: 100%;
     padding: 0;
+}
+/* .image-car{
+    filter: grayscale(100%);
+    height: 600px;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.image-main{
+    background-image: url(../assets/images/taxi.jpg);
+    width: 100%;
+
+} */
+.orange{
+    background-color: #f7b617;
 }
