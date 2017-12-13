@@ -1,1 +1,11 @@
 /* Los estilos de tu proyecto */
+/*Estilos para secciones desarrolladas por Nataly */
+
+.container-super-fluid{
+    width: 100%;
+    padding: 0;
+}
+.col-super-lg-12{
+    width: 100%;
+    padding: 0;
+}
