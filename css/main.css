@@ -1,1 +1,34 @@
 /* Los estilos de tu proyecto */
+
+.four-section{
+    background-image: url(../assets/images/conduce.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 120px 0px;
+}
+
+.four-section .container{
+    width: 100%;
+}
+
+.col-opacity{
+    outline: 1px solid red;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.col-opacity h2,p{
+    color: #ffffff;
+}
+
+
+#covierteconduct{
+    background-color: #f7b617;
+    border: none;
+}
+
+
+
+
+
