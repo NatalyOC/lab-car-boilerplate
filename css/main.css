@@ -1,11 +1,23 @@
 /* Los estilos de tu proyecto */
+/* CSS Body */
+body{
+    font-family: 'Raleway', sans-serif;
+}
+/* Fin CSS Body */
 
+/* Clases Reutilizables */
+.font-bold{
+    font-weight: bold; 
+}
+/* Fín Clases Reutilizables */
+
+/* CSS  4ta sección*/
 .four-section{
     background-image: url(../assets/images/conduce.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    padding: 120px 0px;
+    /* padding: 120px 0px; */
 }
 
 .four-section .container{
@@ -13,20 +25,25 @@
 }
 
 .col-opacity{
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
+    height: 400px;
 }
 
 .col-opacity h2,p{
     color: #ffffff;
 }
 
+.col-opacity h2{
+    padding-top: 80px;
+}
 
 #covierteconduct{
     background-color: #f7b617;
     border: none;
 }
+/* Fín CSS 4ta Sección*/
 
 
 
