@@ -1,4 +1,3 @@
-/* Los estilos de tu proyecto */
 /*Estilos para secciones desarrolladas por Nataly */
 .header-style{
     background-color: #fff;
@@ -43,12 +42,9 @@
     font-size: 3rem;
     color:#fff;
 }
-.line::after{
-    content: 'O bien';
-    color: #fff;
-}
 .button-register{
     margin:1.5rem;
+    font-weight: bold;
 }
 #sect-hero span{
     color:#fff;
@@ -79,12 +75,21 @@
     border: 2px solid #fff;
     color:#fff;
 }
+/*Estilos de seccion App-movil-xs*/
+
 .app-style-xs{
     border: 2px solid #fff;
     color:#fff;
     margin-left: 20px;
     margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+section.orange > div > div:nth-child(2) > div.col-xs-12 > p{
+  color: #fff;
+  font-size: 1.8rem;
+}
+/*Clases reutilizables*/
 .p-40{
     padding: 40px 0;
 }
