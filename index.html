@@ -14,7 +14,7 @@
   <header class="header-style">
     <div class="container-fluid container-super-fluid">
       <div class="row">
-        <div class="col-xs-12 col-lg-12">
+        <div class="col-xs-12 col-super-lg-12">
           <nav class="navbar navbar-default">
             <div class="container-fluid">
               <!-- El logotipo y el icono que despliega el menú se agrupan para mostrarlos mejor en los dispositivos móviles -->
@@ -43,21 +43,68 @@
       </div>
     </div>
   </header> 
-  <section class="image-car image-main">
-    <div class="container">
+  <!-- seccion hero -->
+  <section class="image-car image-main img-fluid" id="sect-hero">
+    <div class="container-fluid container-super-fluid ">
       <div class="row">
-        <div class="col-md-4 col-md-offset-4">
-          <div class="orange">
-            <p>Disfruta de tu Viaje</p>
-            <p>Eres dueño de tu tiempo</p>
-            <span>Viaja con</span>
-            <img src="assets/images/logoBlanco.png" alt="logoblanco">
+        <div class="col-md-5 col-md-offset-7">
+          <div class="orange panel-right-main hidden-xs">
+            <form action="">
+              <p>Disfruta de tu Viaje</p>
+              <p>Eres dueño de tu tiempo</p>
+              <span>Viaja con</span>
+              <img src="assets/images/logoBlanco.png" alt="logoblanco">
+              <br>
+              <button type="button" class="btn btn-default text-uppercase button-register">registrate</button>
+              <hr class="line"> 
+              <span class="line-work">O bien</span>
+              <button type="button" class="btn btn-primary font-bold" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap" id="covierteconduct">Conviertete en Conductor</button>
+            </form>
           </div>
         </div>
       </div>
+      <div class="row">
+          <div class="col-xs-10 col-xs-offset-2">
+            <div class="orange panel-right-main visible-xs">
+              <p>Comienza a viajar</p>
+              <span>con</span>
+              <img src="assets/images/logoBlanco.png" alt="logoblanco">
+              <br>
+              <button class="btn btn-default button-app" type="submit" name="button">Descarga el app</button>
+            </div>
+          </div>
+        </div>
     </div>
-
   </section>
+  <!-- /.Seccion Hero -->
+  <!-- Seccion App -->
+  <section class="orange">
+    <div class="container-fluid">
+      <div class="row p-40 hidden-xs">
+        <div class="col-md-10 app-style">
+          <div class="col-md-5 m-10 p-10">
+            <img class="img-responsive"src="assets/images/iPhone6Plus.png" alt="iphone" >
+          </div>
+          <div class="col-md-5 col-md-offset-1 m-10 p-10">
+            <h3>Descarga la nueva app</h3>
+            <p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
+            <p>Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes, tu conductor dabe exactamente a donde ir.</p>
+          </div>
+        </div>
+      </div> 
+      <div class="row">
+        <div class="col-xs-11 app-style-xs">
+            <div class="col-xs-12">
+              <h3>La nueva app</h3>
+              <img class="img-responsive"src="assets/images/iPhone6Plus.png" alt="iphone" >
+            </div>
+        </div>
+        <div class="col-xs-12">
+          <p class="">Llega a tu destino aún más rápido</p>
+        </div>  
+    </div>
+  </section>
+  <!-- /.Seccion App-->
   <!-- seccion que va ser desarrollada por Aracely -->
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>   

@@ -12,18 +12,91 @@
     width: 100%;
     padding: 0;
 }
-/* .image-car{
-    filter: grayscale(100%);
-    height: 600px;
-    background-size: 100% 100%;
-    background-position: center center;
-    background-attachment: fixed;
+.image-car{
+   /*  filter: grayscale(100%); */
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+/*     width: 100%;
+    height: 700px;
+    max-height: 1200px; */
 }
 .image-main{
     background-image: url(../assets/images/taxi.jpg);
-    width: 100%;
-
-} */
+  /*   width: 100%;
+    height: 100%; */
+} 
 .orange{
     background-color: #f7b617;
+}
+.panel-right-main{
+    padding-top:9%;
+    padding-bottom:9%;
+    padding-right: 5%;
+    padding-left: 9%;
+    width: 100%;
+    line-height: 1.1;
+    margin-top: 5%;
+    margin-bottom: 5%; 
+}
+.panel-right-main p{
+    font-size: 3rem;
+    color:#fff;
+}
+.line::after{
+    content: 'O bien';
+    color: #fff;
+}
+.button-register{
+    margin:1.5rem;
+}
+#sect-hero span{
+    color:#fff;
+}
+.line-work{
+    background-color: #f7b617;
+    position: relative;
+    top:-36px;
+    left:50%;
+    font-size: 1.7rem;
+}
+/*Estilos para xs*/
+.panel-right-main span{
+  font-size: 3rem;
+}
+.panel-right-main img{
+    width: 20%;
+    position: relative;
+    top:-0.5rem;
+    left: 0.5rem;
+}
+.button-app{
+    margin-top: 10px;
+}
+
+/*Estilos de seccion App*/
+.app-style{
+    border: 2px solid #fff;
+    color:#fff;
+}
+.app-style-xs{
+    border: 2px solid #fff;
+    color:#fff;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.p-40{
+    padding: 40px 0;
+}
+.p-10{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.m-10{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+section.orange > div > div > div > div.col-md-5.col-md-offset-1 > p{
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
