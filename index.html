@@ -6,56 +6,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>LAB-CAR</title>
+  <!-- CDN Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="shortcut icon" href="assets/images/car.ico" type="image/x-icon">
 </head>
 <body>
   <!-- seccion que va ser desarrollada por nataly -->
   <header class="header-style">
-    <div class="container-fluid container-super-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-super-lg-12">
-          <nav class="navbar navbar-default">
-            <div class="container-fluid">
-              <!-- El logotipo y el icono que despliega el menú se agrupan para mostrarlos mejor en los dispositivos móviles -->
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">
-                  <img alt="LabCar" src="assets/images/logoForma.png">
-                </a>
-              </div>
-              <!-- Agrupar los enlaces de navegación, los formularios y cualquier otro elemento que se pueda ocultar al minimizar la barra -->
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#">Viaja</a></li>
-                  <li><a href="#">Conduce</a></li>
-                  <li><a href="#">Inicia Sesion</a></li>
-                </ul>
-              </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-          </nav>
-        </div>
-      </div>
-    </div>
+    <div class="container-fluid">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <!-- El logotipo y el icono que despliega el menú se agrupan para mostrarlos mejor en los dispositivos móviles -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+              <img alt="LabCar" src="assets/images/logoForma.png">
+            </a>
+          </div>
+          <!-- Agrupar los enlaces de navegación, los formularios y cualquier otro elemento que se pueda ocultar al minimizar la barra -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Viaja</a></li>
+              <li><a href="#">Conduce</a></li>
+              <li><a href="#" id ="sign" data-toggle="modal" data-target="#login-modal">Inicia Sesion</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </div><!-- /.container-fluid -->
   </header> 
   <!-- seccion hero -->
   <section class="image-car image-main img-fluid" id="sect-hero">
-    <div class="container-fluid container-super-fluid ">
-      <div class="row">
-        <div class="col-md-5 col-md-offset-7">
-          <div class="orange panel-right-main hidden-xs">
+    <div class="container-fluid">
+      <div class="row hidden-xs">
+        <div class="col-md-5 col-md-offset-7 pr-0 m-10">
+          <div class="orange panel-right-main">
             <form action="">
               <p>Disfruta de tu Viaje</p>
               <p>Eres dueño de tu tiempo</p>
               <span>Viaja con</span>
               <img src="assets/images/logoBlanco.png" alt="logoblanco">
               <br>
-              <button type="button" class="btn btn-default text-uppercase button-register">registrate</button>
+              <button type="button" class="btn btn-default text-uppercase button-register fw-bold">registrate</button>
               <hr class="line"> 
               <span class="line-work">O bien</span>
               <button type="button" class="btn btn-primary font-bold" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap" id="covierteconduct">Conviertete en Conductor</button>
@@ -63,14 +61,14 @@
           </div>
         </div>
       </div>
-      <div class="row">
-          <div class="col-xs-10 col-xs-offset-2">
-            <div class="orange panel-right-main visible-xs">
+      <div class="row visible-xs">
+          <div class="col-xs-10 col-xs-offset-2 pr-0 m-10">
+            <div class="orange panel-right-main ">
               <p>Comienza a viajar</p>
               <span>con</span>
               <img src="assets/images/logoBlanco.png" alt="logoblanco">
               <br>
-              <button class="btn btn-default button-app" type="submit" name="button">Descarga el app</button>
+              <button class="btn btn-default button-app fw-bold" type="submit" name="button">Descarga el app</button>
             </div>
           </div>
         </div>
@@ -106,6 +104,65 @@
   </section>
   <!-- /.Seccion App-->
   <!-- Modales -->
+  <!-- BEGIN # MODAL LOGIN -->
+  <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" align="center">
+          <img class="img-circle" id="img_logo" src="http://bootsnipp.com/img/logo.jpg">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+          </button>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-3 col-xs-offset-2">
+              <!-- Begin # DIV Form -->
+        <div id="div-forms">
+          <!-- Begin # Login Form -->
+
+          
+          <form id="login-form">
+            <div class="modal-body">
+              <div id="div-login-msg">
+               <!--  <div class="form-group">
+                    <label for="uLogin" class="input-group-addon glyphicon glyphicon-user"></label>
+                   
+                      <input id="login_username" class="form-control" type="text" placeholder="Username" required>
+                </div> -->
+                <div class="form-group">
+                    <div class="input-group">
+                        <label for="uPassword" class="input-group-addon glyphicon glyphicon-lock"></label>
+                      <input type="password" class="form-control" id="uPassword" placeholder="Password">
+                      
+                    </div> <!-- /.input-group -->
+                  </div> <!-- /.form-group -->
+                <input id="login_password" class="form-control" type="password" placeholder="Password" required>
+              
+              </div>
+            <div class="modal-footer">
+              <div>
+                <button type="submit" class="btn btn-primary btn-lg btn-block orange">LOGING</button>
+              </div>
+              <div>
+                <button id="login_lost_btn" type="button" class="btn btn-link">Forgot Password?</button>
+                <button id="login_register_btn" type="button" class="btn btn-link">Click Here</button>
+              </div>
+            </div>
+          </form>
+          <!-- End # Login Form -->
+            </div>
+
+          </div>
+        </div>
+        </div>
+            <!-- End # DIV Form -->
+            
+  </div>
+</div>
+</div>
+<!-- END # MODAL LOGIN -->
+
 
   <!-- /.Modales-->
   <!-- seccion que va ser desarrollada por Aracely -->

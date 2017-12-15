@@ -44,7 +44,7 @@
 }
 .button-register{
     margin:1.5rem;
-    font-weight: bold;
+   
 }
 #sect-hero span{
     color:#fff;
@@ -54,7 +54,7 @@
     position: relative;
     top:-36px;
     left:50%;
-    font-size: 1.7rem;
+    font-size: 1.8rem!important;
 }
 /*Estilos para xs*/
 .panel-right-main span{
@@ -100,6 +100,12 @@ section.orange > div > div:nth-child(2) > div.col-xs-12 > p{
 .m-10{
     margin-bottom: 10px;
     margin-top: 10px;
+}
+.fw-bold{
+    font-weight: bold;
+}
+.pr-0{
+    padding-right: 0;
 }
 section.orange > div > div > div > div.col-md-5.col-md-offset-1 > p{
     font-size: 2rem;
