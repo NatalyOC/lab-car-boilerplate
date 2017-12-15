@@ -23,33 +23,61 @@
                 <div class="row">
                         <div class="col-xs-12 col-md-3 col-md-offset-9 col-opacity">
                             <h2 class="font-bold">Conduce Cuando quieras</h2>
-                            <p>LabCar es una opción flexible para alcanzar tus metas financieras</p>
+                            <p id="textoe">LabCar es una opción flexible para alcanzar tus metas financieras</p>
                             <button type="button" class="btn btn-primary font-bold" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap" id="covierteconduct">Conviertete en Coductor</button>
                             
                             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                               <div class="modal-dialog" role="document">
                                 <div class="modal-content">
-                                  <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                      <span aria-hidden="true">&times;</span>
-                                    </button>
-                                  </div>
                                   <div class="modal-body">
                                     <form>
                                       <div class="form-group">
-                                        <label for="recipient-name" class="col-form-label">Recipient:</label>
-                                        <input type="text" class="form-control" id="recipient-name">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        <p class="dark-font">¿Tiene vehiculos de 4 puertas?</p>
+                                        <select class="form-control">
+                                            <option>Si</option>
+                                            <option>No</option>
+                                        </select>
                                       </div>
                                       <div class="form-group">
-                                        <label for="message-text" class="col-form-label">Message:</label>
-                                        <textarea class="form-control" id="message-text"></textarea>
+                                        <p class="dark-font">Marca</p>
+                                        <select class="form-control">
+                                            <option>Elige la Marca del vehículo</option>
+                                            <option>Nissan</option>
+                                            <option>Toyota</option>
+                                            <option>Honda</option>
+                                            <option>Ford</option>
+                                        </select>
+                                        <p>¿No ves tu vehiculo en la lista? Envía un correo electronico a: <br> <a href="#">sociosmdv@uber.com</a></p>
                                       </div>
+                                      <div class="form-group">
+                                            <p class="dark-font">Modelo</p>
+                                            <select class="form-control">
+                                                <option>Modelo1</option>
+                                                <option>Gol</option>
+                                                <option>Classic</option>
+                                                <option>Suran</option>
+                                                <option>Fox</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <p class="dark-font">Año</p>
+                                            <select class="form-control">
+                                                <option>2017</option>
+                                                <option>2016</option>
+                                                <option>2015</option>
+                                                <option>2014</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <p class="dark-font">Número de mátricula</p>
+                                            <input type="text" class="form-control" placeholder="Número de mátricula">
+                                            <p>La información de la matricula ayuda a los clientes a identificar tu vehiculo</p>
+                                        </div>    
                                     </form>
-                                  </div>
-                                  <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Send message</button>
+                                    <button type="button" class="btn btn-primary btnsend">ENVIAR</button>
                                   </div>
                                 </div>
                               </div>
