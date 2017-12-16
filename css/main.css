@@ -111,3 +111,50 @@ section.orange > div > div > div > div.col-md-5.col-md-offset-1 > p{
     font-size: 2rem;
     margin-bottom: 20px;
 }
+/*********************/
+/*Estilos de modales*/
+
+.bgc-green{
+    background-color:#08AC9D ;
+}
+.bgc-white{
+    background-color: #fff;
+}
+#img_logo{
+    width: 50%;
+}
+.modal-p{
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+.color-w{
+    color: #fff;    
+}
+.color-red{
+    color:red;
+}
+/*Estilo modal registro*/
+.button-count{
+    background-color: #333;
+}
+.button-count:hover{
+    background-color: #333;
+}
+.color-gray{
+    background-color: #a9a9a9;
+}
+.button-dropdow{
+    background-color:gainsboro;
+  
+}
+.a-dropdow{
+    color: #333;
+    
+}
+.a-dropdow:hover{
+    color: #333;
+    text-decoration: none;
+}
+h5{
+    text-align: center;
+}
