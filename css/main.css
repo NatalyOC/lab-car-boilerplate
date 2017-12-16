@@ -13,6 +13,22 @@ body{
 .font-white{
     color: #fff;
 }
+
+.font-size18{
+   font-size: 18px;
+}
+
+.none{
+    display: none;
+}
+
+.center{
+    text-align: center;
+}
+
+.padding10{
+    padding: 10px;
+}
 /* Fín Clases Reutilizables */
 
 /* CSS  4ta sección*/
@@ -66,6 +82,59 @@ body{
 }
 /* Fín CSS 4ta Sección*/
 
+/* Inicio CSS 5ta Sección */
+.five-section{
+    background-color: #f7b617;
+    padding: 20px;
+}
+
+/* Para el mapa */
+.map-1{
+    /* background-image: url(../assets/images/map1.PNG);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; */
+    height: 250px;
+    width: 100%;
+}
+
+#map {
+    height: 100%;
+}
+
+.container-map{
+    padding: 15px;
+    margin-top: 40px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.paragraphs-map{
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.button-map{
+    border: none;
+    padding: 10px 30px;
+    font-weight: 700;
+}
+
+.container-map-graffy{
+  outline: 1px solid #fff;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+}
+/* Fin CSS 5ta Sección */
+
 /* Inicio Estilos Footer */
 footer{
     background-color: #2b2b2b;
@@ -96,10 +165,6 @@ footer{
       margin-bottom: 20px;
   }
   
-  .none{
-      display: none;
-  }
-
   .desktop-footer ul{
     list-style: none;
  }
@@ -132,12 +197,6 @@ footer{
  
     .mobile-celular{
         display: none;
-    }
- 
-    .map-1{
-        background-image: url(../assets/images/map2.PNG);
-        height: 450px;
-        width: 400px;
     }
  
     .container-map-graffy {
