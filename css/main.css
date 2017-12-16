@@ -7,7 +7,7 @@ body{
 
 /* Clases Reutilizables */
 .font-bold{
-    font-weight: bold; 
+    font-weight: bold;
 }
 
 .font-white{
@@ -89,16 +89,9 @@ body{
 }
 
 /* Para el mapa */
-.map-1{
-    /* background-image: url(../assets/images/map1.PNG);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover; */
+.map{
     height: 250px;
     width: 100%;
-}
-
-#map {
     height: 100%;
 }
 
@@ -133,6 +126,9 @@ body{
   align-items: center;
   height: 400px;
 }
+
+
+
 /* Fin CSS 5ta Sección */
 
 /* Inicio Estilos Footer */
@@ -144,41 +140,41 @@ footer{
 .mobile-footer ul{
     list-style: none;
   }
-  
+
   .mobile-footer ul>li>a{
       color: #fff;
   }
-  
+
   .fa {
       color: #fff;
       margin-left: 8px;
       margin-bottom: 20px;
   }
-  
+
   .container-app{
     overflow: auto;
     width: 60%;
   }
-  
+
   .container-app a>img{
       width: 70%;
       margin-bottom: 20px;
   }
-  
+
   .desktop-footer ul{
     list-style: none;
  }
- 
+
  .desktop-footer ul>li>a{
      color: #fff;
  }
- 
+
  .flex{
    display: flex;
    align-items: flex-start;
-   
+
  }
- 
+
  .flex-end{
    align-self: flex-end;
  }
@@ -187,42 +183,52 @@ footer{
 
 /* Inicio Media */
 @media (min-width: 768px) {
-    .position{
-       float: right;
-    }
- 
     .mobile-info{
         display: none;
     }
- 
+
     .mobile-celular{
         display: none;
     }
- 
+
     .container-map-graffy {
         width: 420px;
     }
- 
+
     .mobile-footer{
         display: none;
     }
- 
+
     .container-app a>img{
         width: 150px;
     }
+
+    #mapmobile{
+        display: none;
+    }
+
  }
- 
+
  @media (max-width: 768px){
      .destok-info{
          display: none;
      }
- 
+
      .desktop-celular{
          display: none;
      }
- 
+
      .desktop-footer{
          display: none;
      }
-    }     
+
+    #mapmobile{
+        display: inherit;
+    }
+
+    #mapdescktop{
+        display: none;
+    }
+
+}
 /* Fin Media */
