@@ -59,6 +59,13 @@ body{
     padding-top: 80px;
 }
 
+#covierteconduct1{
+    background-color: #fff;
+    color: #000;
+    border: #a9a9a9;
+    margin-left: -42px;
+}
+
 #covierteconduct{
     background-color: #f7b617;
     border: none;
